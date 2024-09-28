@@ -15,3 +15,28 @@ body {
     width: 100%;
     object-fit: cover;
 }
+/* Estilos personalizados */
+
+.banner {
+    height: 100vh;
+    background: url('imagens/banner.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.banner h1 {
+    font-size: 4rem;
+}
+
+.banner p {
+    font-size: 1.5rem;
+}
+
+#sobre {
+    background-color: #f8f9fa;
+}
+
+#contato {
+    background-color: #ffffff;
+}
