@@ -15,13 +15,40 @@ body {
     width: 100%;
     object-fit: cover;
 }
-/* Estilos personalizados */
+:root {
+    --primary-color: #ff5722;
+    --secondary-color: #00bcd4;
+    --text-color: #ffffff;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333333;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand, .nav-link {
+    color: var(--text-color) !important;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-primary:hover {
+    background-color: #0097a7;
+    border-color: #0097a7;
+}
 
 .banner {
     height: 100vh;
     background: url('imagens/banner.jpg') no-repeat center center;
     background-size: cover;
-    color: white;
+    color: var(--text-color);
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
@@ -34,9 +61,17 @@ body {
 }
 
 #sobre {
-    background-color: #f8f9fa;
+    background-color: #ffffff;
+}
+
+#projetos {
+    background-color: #f0f0f0;
 }
 
 #contato {
     background-color: #ffffff;
+}
+
+footer {
+    background-color: var(--primary-color);
 }
