@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensagem = $_POST['mensagem'];
 
     // Verifica o reCAPTCHA
-    $secretKey = '6Lf4YlEqAAAAABpPa88mnDi64eWYQzwcs0xWl4e4';
+    $secretKey = '6LdM9VEqAAAAAGjszvoGCfwKUPm8c--9wwepgGd5';
     $responseKey = $_POST['g-recaptcha-response'];
     $userIP = $_SERVER['REMOTE_ADDR'];
     $reCaptchaURL = "https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey&remoteip=$userIP";
